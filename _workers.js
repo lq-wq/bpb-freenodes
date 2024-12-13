@@ -243,7 +243,7 @@ function cleanDomain(domain) {
 // 生成 VLESS 节点
 function generateVlessNodes(domains1, domains2) {
   const uuid = "89b3cbba-e6ac-485a-9481-976a0415eab9";
-  const baseDomain = "visa.cn";
+  const baseDomain = "www.vpslook.com";
   return domains1.map((d1, i) => {
     const d2 = domains2[i];
     if (!d1 || !d2) return null;
@@ -253,7 +253,7 @@ function generateVlessNodes(domains1, domains2) {
 
 // 生成 Trojan 节点
 function generateTrojanNodes(domains1, domains2) {
-  const baseDomain = "visa.cn";
+  const baseDomain = "www.vpslook.com";
   return domains1.map((d1, i) => {
     const d2 = domains2[i];
     if (!d1 || !d2) return null;
